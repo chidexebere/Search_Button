@@ -1,0 +1,7 @@
+# Node.js Tools for Visual Studio
+node_modules/
+
+
+# Others
+public/css/style.css.map
+public/css/style.scss

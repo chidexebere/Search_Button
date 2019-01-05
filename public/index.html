@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search Box</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <form role="search">
+        <div class="wrapper">
+            <div class="dropdown">
+                <input type="search" id="mySearch" name="q" placeholder="Type to Start Searching" aria-label="Search through site content">
+                <ul class="first-content">
+                    <li class="firstChild"><a href="#" id="partial-match">Partial Match
+                            <div class="popUp" id="partial-popup">
+                                <div class="matchType">Partial Match</div>
+                                <div class="inputFill">Hello</div>
+                                <div class="confirm">
+                                    <div class="cancelButton">Cancel</div>
+                                    <div class="proceedButton">Proceed</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="firstChild"><a href="#" id="autofill-match">Autofill Match
+                            <div class="popUp" id="autofill-popup">
+                                <div class="matchType">Autofill Match</div>
+                                <div class="inputFill">Hello</div>
+                                <div class="confirm">
+                                    <div class="cancelButton">Cancel</div>
+                                    <div class="proceedButton">Proceed</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="firstChild"><a href="#" id="other-match">Other Match
+                            <div class="popUp" id="other-popup">
+                                <div class="matchType">Other Match</div>
+                                <div class="inputFill">Hello</div>
+                                <div class="confirm">
+                                    <div class="cancelButton">Cancel</div>
+                                    <div class="proceedButton">Proceed</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <span></span>
+            <div class="outer-button">
+                <div class="button"> <i class="fa fa-search" id="icon" aria-hidden="true"></i>Search</div>
+            </div>
+        </div>
+    </form>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

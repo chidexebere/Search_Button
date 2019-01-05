@@ -1,0 +1,192 @@
+:root {
+  font-size: 62.5%;
+}
+
+:root body {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* Search Button */
+.outer-button {
+  border-radius: 5rem;
+  border: 2px solid #999;
+  background-color: #ccc;
+  -webkit-box-shadow: 0px 0px 20px 10px rgba(180, 0, 50, 0.2);
+          box-shadow: 0px 0px 20px 10px rgba(180, 0, 50, 0.2);
+}
+
+.button {
+  background-color: #ff0032;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  color: #ddd;
+  font-size: 1.4rem;
+  letter-spacing: 0.6px;
+  font-weight: bold;
+  width: 13rem;
+  border: 1px solid #fff;
+  border-radius: 5rem;
+}
+
+#icon {
+  color: #ddd;
+  font-size: 1.8rem;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+}
+
+span {
+  width: 2.5rem;
+}
+
+/* Input field */
+#mySearch {
+  font-family: 'Open Sans', sans-serif;
+  display: none;
+  -webkit-transition: width 0.9s ease-in-out;
+  transition: width 0.9s ease-in-out;
+  padding: 0.9rem 1.6rem;
+  width: 17rem;
+  font-size: 1.1rem;
+  background-color: #ccc;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.first-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #f1f1f1;
+  min-width: 17rem;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.first-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.firstChild {
+  display: block;
+  position: relative;
+  background: #fff;
+}
+
+.firstChild a {
+  display: block;
+  padding: 1em;
+}
+
+.firstChild a:active {
+  background-color: #eee;
+}
+
+.first-content a:hover {
+  background-color: #eee;
+}
+
+.dropdown:hover .first-content {
+  display: block;
+}
+
+.dropdown:hover {
+  background-color: #ddd;
+}
+
+/* Match type Popup*/
+.popUp {
+  position: absolute;
+  z-index: 5;
+  display: none;
+  background: #ccc;
+  width: 27rem;
+  height: 17rem;
+  left: 95%;
+  top: 10%;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.matchType {
+  height: 4rem;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #d0d0d0;
+}
+
+.inputFill {
+  height: 9rem;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.confirm {
+  height: 4rem;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-top: 2px solid #d0d0d0;
+  font-size: 1.2rem;
+}
+
+.cancelButton {
+  border-right: 2px solid #d0d0d0;
+  width: calc(27rem * 1/2 - 0.5px);
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.proceedButton {
+  width: calc(27rem * 1/2 - 0.5px);
+  cursor: pointer;
+  padding: 0.5rem;
+}
+/*# sourceMappingURL=style.css.map */
