@@ -1,5 +1,5 @@
 
-## Dynamic Search Button
+## Search Button
 
 A simple search button that allows you select fill types. 
 
